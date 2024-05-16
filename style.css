@@ -1,0 +1,19 @@
+.keyword  { color: #ddca7e; }
+.def      { color: #809bbd; }
+.operator { color: #cccccc; }
+.property { color: #9a8297; }
+.string   { color: #96b38a; }
+.number   { color: #d0782a; }
+* { box-sizing: border-box; }
+.screen { color: white;}
+body { 
+  margin: 0;
+  padding: 1em;
+  min-height: 100vh;
+  background-color: #1d1e22;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  font-size: 4.5vmin;
+  font-family: monospace;
+}
